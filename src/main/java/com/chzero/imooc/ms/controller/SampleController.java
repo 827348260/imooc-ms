@@ -74,5 +74,4 @@ public class SampleController{
         User resultUser = this.redisService.get(UserKey.getById, "user", User.class);
         return Result.success(resultUser);
     }
-
 }
