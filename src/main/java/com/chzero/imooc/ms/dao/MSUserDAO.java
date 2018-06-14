@@ -1,6 +1,6 @@
 package com.chzero.imooc.ms.dao;
 
-import com.chzero.imooc.ms.vo.MSUser;
+import com.chzero.imooc.ms.POJO.MSUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

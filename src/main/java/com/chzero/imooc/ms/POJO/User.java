@@ -1,4 +1,4 @@
-package com.chzero.imooc.ms.vo;
+package com.chzero.imooc.ms.POJO;
 
 import lombok.Data;
 

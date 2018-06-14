@@ -1,7 +1,7 @@
 package com.chzero.imooc.ms.service;
 
 import com.chzero.imooc.ms.dao.UserDAO;
-import com.chzero.imooc.ms.vo.User;
+import com.chzero.imooc.ms.POJO.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

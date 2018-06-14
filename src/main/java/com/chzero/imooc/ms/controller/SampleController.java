@@ -4,7 +4,7 @@ import com.chzero.imooc.ms.redis.RedisService;
 import com.chzero.imooc.ms.redis.UserKey;
 import com.chzero.imooc.ms.result.Result;
 import com.chzero.imooc.ms.service.UserService;
-import com.chzero.imooc.ms.vo.User;
+import com.chzero.imooc.ms.POJO.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
