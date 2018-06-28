@@ -37,7 +37,7 @@ public class MSUserService{
         return this.msUserDAO.getById(idUser);
     }
 
-    public boolean login(LoginVo loginVo, HttpServletResponse response){
+    public String login(LoginVo loginVo, HttpServletResponse response){
         if (loginVo == null){
             throw new GlobalException(CodeMsg.SERVER_ERROR);
         }
@@ -59,7 +59,7 @@ public class MSUserService{
         }
         String token = UUIDUtil.uuid();
         this.autoGenCookie(response, token, msUser);
-        return true;
+        return token;
     }
 
     /**

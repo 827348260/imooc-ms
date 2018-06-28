@@ -36,9 +36,9 @@ public class LoginController{
 
     @ResponseBody
     @RequestMapping(value = "do_login")
-    public Result<Boolean> doLogin(@Valid LoginVo loginVo, HttpServletResponse response){
+    public Result<String> doLogin(@Valid LoginVo loginVo, HttpServletResponse response){
         this.logger.info(loginVo.toString());
-        boolean login = this.msUserService.login(loginVo, response);
+        String login = this.msUserService.login(loginVo, response);
         return Result.success(login);
     }
 
